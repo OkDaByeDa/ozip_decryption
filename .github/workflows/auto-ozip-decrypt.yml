@@ -41,7 +41,7 @@ jobs:
              sudo -H pip install setuptools wheel docopt pycryptodome
              wget https://raw.githubusercontent.com/techyminati/oppo_ozip_decrypt/master/ozipdecrypt.py
              sudo python ozipdecrypt.py $FIRMWARE_NAME 
-             zip -r RMX1851EX_11_OTA_0190_all_kUXFHXJYeH9C.ozip out #edit file name
+             zip -r RMX1851EX_11_OTA_0190_all_kUXFHXJYeH9C.zip out #edit file name
 
        - name: Upload Decrypted zipRMX1851EX_11_OTA_0190_all_kUXFHXJYeH9C.ozip
          continue-on-error: true
